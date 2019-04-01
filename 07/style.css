@@ -1,0 +1,60 @@
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  }
+
+
+.site-windows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.col-1 {
+  flex: 50%;
+  border: solid 10px white;
+}
+
+.col-2 {
+  flex: 50%
+  border: solid 10px white;
+  }
+
+ @media screen and (max-width: 600px) {
+  .site-windows {
+    width: 100%;
+  }
+  #left-window {
+  }
+}
+
+.page-container {
+    width: 60%;
+    margin: auto;
+}
+
+
+.content-container {
+    height: 400px;
+
+}
