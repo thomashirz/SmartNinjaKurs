@@ -1,0 +1,71 @@
+html, body {
+
+    background-color: magenta;
+    text-align: center;
+    font-family: Courier, Monaco, monospace;
+}
+
+
+
+
+
+p {
+
+    text-shadow: -2px 2px 2px #999;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+h1 {
+
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+h2 {
+
+    color: aqua;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+
+
+#ME {
+
+    width: 350px;
+    height: auto;
+
+}
+
+
+#ME {
+
+    box-shadow: 15px 15px 3px 1px #999
+
+    }
+
+
+#ADDME {
+
+    font-size: 30px;
+    border-radius: 4px;
+    background-color: orange;
+
+}
+
+
+#search {
+
+    font-size: 15px;
+    font: helvetcia;
+
+}

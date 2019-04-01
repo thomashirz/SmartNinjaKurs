@@ -1,0 +1,26 @@
+html, body {
+    background-color: coral;
+    }
+
+
+
+p {
+
+    text-shadow: -2px 2px 2px #999;
+    color: magenta;
+    margin-bottom: 35py;
+}
+
+
+#Fluss {
+    color: #28536C;
+
+}
+
+.listelement {
+    color:yellow;
+
+}
+
+
+/* das ist ein Kommentar/*
