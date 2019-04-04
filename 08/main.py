@@ -1,6 +1,4 @@
-text = "Hi, how is your mood today?"
-
-mood = input("Mood today: ")
+mood = input("Hi, how is your mood today: ")
 
 
 if mood == "happy":
@@ -20,7 +18,6 @@ elif(mood == "relaxed"):
 
 else:
     print("I don't recognize this mood")
-
 
 
 
