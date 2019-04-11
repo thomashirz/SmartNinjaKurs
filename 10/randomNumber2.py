@@ -37,3 +37,4 @@ while True:
 
 print(attempts)
 
+print(juhu)
