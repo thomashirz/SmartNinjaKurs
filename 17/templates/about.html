@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+<h1>About</h1>{% endblock title %}
+
+{% block content %}
+
+
+<p>Here you find some information about us and our mission! If you wanna know more you can contact us via the form down below!</p>
+
+<form method="post" action="/contact">
+    <input type="text" name="contact-name" placeholder="Enter your name">
+    <br>
+
+    <input type="email" name="contact-email" placeholder="Enter email address">
+    <br>
+
+    <textarea name="contact-message" placeholder="Enter your message"></textarea>
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+{% endblock content %}
